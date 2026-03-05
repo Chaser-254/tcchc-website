@@ -117,8 +117,8 @@ export function VisitPage() {
                       </h3>
                       <p className="text-deep-charcoal/70 font-light text-sm">
                         From Voi, take the Voi-Wundanyi Road (C104) for
-                        approximately 40km to Wundanyi town, then continue towards
-                        Taita Taveta University. TCCHC is located at Vindo Block 8 
+                        approximately 8km to Taita Taveta versity street, then continue towards
+                        Left just after crossing the Railway Line. TCCHC is located at Vindo Block 8 
                         Plot No. 1403, near the university main entrance. 
                         Free parking is available on site.
                       </p>
@@ -131,10 +131,7 @@ export function VisitPage() {
                         By Public Transport
                       </h3>
                       <p className="text-deep-charcoal/70 font-light text-sm">
-                        Matatus run regularly from Voi to Wundanyi. From the
-                        Wundanyi bus stage, take a local taxi or boda-boda towards
-                        Taita Taveta University and ask for Vindo Block 8. 
-                        The Centre is approximately 15 minutes from the bus stage.
+                        Matatus run regularly from Voi to Mariwenyi/TTU Versity Avenue Bus Stop. for Vindo Block 8. 
                       </p>
                     </div>
                   </div>
