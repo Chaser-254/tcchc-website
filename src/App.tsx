@@ -8,6 +8,9 @@ import { GalleryShopPage } from './pages/GalleryShopPage';
 import { VisitPage } from './pages/VisitPage';
 import { SupportPage } from './pages/SupportPage';
 import { BlogPage } from './pages/BlogPage';
+import { TermsOfServicePage } from './pages/TermsOfServicePage';
+import { PrivacyPolicyPage } from './pages/PrivacyPolicyPage';
+import { CookiePolicyPage } from './pages/CookiePolicyPage';
 export function App() {
   return (
     <HashRouter>
@@ -20,6 +23,9 @@ export function App() {
           <Route path="/visit" element={<VisitPage />} />
           <Route path="/support" element={<SupportPage />} />
           <Route path="/blog" element={<BlogPage />} />
+          <Route path="/terms-of-service" element={<TermsOfServicePage />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+          <Route path="/cookie-policy" element={<CookiePolicyPage />} />
         </Routes>
       </Layout>
     </HashRouter>);
