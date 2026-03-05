@@ -1,5 +1,3 @@
-import React from 'react';
-
 export function TermsOfServicePage() {
   return (
     <div className="bg-white min-h-screen">
