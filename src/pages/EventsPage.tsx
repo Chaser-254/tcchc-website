@@ -3,87 +3,119 @@ import { CalendarIcon, MapPinIcon, ClockIcon } from 'lucide-react';
 import img1 from '../assets/images/img1.jpeg';
 import img2 from '../assets/images/img2.jpeg';
 import img3 from '../assets/images/img3.jpeg';
+
 const events = [
-{
-  date: 'Oct 15, 2024',
-  time: '10:00 AM - 6:00 PM',
-  title: 'Annual Dawida Cultural Festival',
-  description:
-  'A full day celebrating Taita heritage with traditional music, dance performances, craft demonstrations, and a local food market.',
-  location: 'TCCHC Main Courtyard',
-  type: 'Festival',
-  image: img1
-},
-{
-  date: 'Oct 22, 2024',
-  time: '2:00 PM - 5:00 PM',
-  title: 'Master Weaver Workshop: Sisal Techniques',
-  description:
-  'Join master weaver Mama Njeri for an intensive afternoon exploring advanced sisal weaving patterns and natural dyeing methods.',
-  location: 'Artisan Studio 1',
-  type: 'Workshop',
-  image: img2
-},
-{
-  date: 'Nov 05, 2024',
-  time: '6:30 PM - 9:00 PM',
-  title: 'Exhibition Opening: "Roots & Resilience"',
-  description:
-  'The opening reception for our new temporary exhibition featuring contemporary interpretations of traditional Dawida artifacts by local youth.',
-  location: 'Main Gallery',
-  type: 'Exhibition',
-  image: img3
-},
-{
-  date: 'Nov 12, 2024',
-  time: '7:00 PM - 9:00 PM',
-  title: 'Community Storytelling Circle',
-  description:
-  'An evening around the fire with community elders sharing oral histories, myths, and legends of the Taita people.',
-  location: 'Outdoor Amphitheater',
-  type: 'Community',
-  image: img1
-},
-{
-  date: 'Nov 19, 2024',
-  time: '10:00 AM - 4:00 PM',
-  title: 'Pottery Masterclass with Mama Koki',
-  description:
-  'A full-day immersive experience in traditional clay preparation, hand-building techniques, and pit firing.',
-  location: 'Ceramics Studio',
-  type: 'Workshop',
-  image: img2
-},
-{
-  date: 'Dec 03, 2024',
-  time: '9:00 AM - 5:00 PM',
-  title: 'Holiday Craft Market',
-  description:
-  'Support local artisans by purchasing unique, handcrafted gifts for the holiday season. Featuring over 30 local makers.',
-  location: 'TCCHC Grounds',
-  type: 'Market',
-  image: img3
-},
-{
-  date: 'Dec 10, 2024',
-  time: '3:00 PM - 5:00 PM',
-  title: 'Lecture: The History of Taita Beadwork',
-  description:
-  'Dr. Mwangi discusses the symbolic meanings, historical trade routes, and evolution of Dawida bead craftsmanship.',
-  location: 'Auditorium',
-  type: 'Lecture',
-  image: img1
-},
-{
-  date: 'Dec 17, 2024',
-  time: '11:00 AM - 1:00 PM',
-  title: 'Youth Heritage Program Showcase',
-  description:
-  'A presentation of projects completed by our youth residency participants, blending traditional skills with modern design.',
-  location: 'Exhibition Hall B',
-  type: 'Community',
-  image: img2
-}];
+  {
+    date: 'Oct 15, 2026',
+    time: '10:00 AM - 6:00 PM',
+    title: 'Annual Dawida Cultural Festival',
+    description:
+      'A full day celebrating Taita heritage with traditional music, dance performances, craft demonstrations, and a local food market.',
+    location: 'TCCHC Main Courtyard',
+    type: 'Festival',
+    image: img1,
+  },
+  {
+    date: 'Oct 22, 2026',
+    time: '2:00 PM - 5:00 PM',
+    title: 'Master Weaver Workshop: Sisal Techniques',
+    description:
+      'Join master weaver Mama Njeri for an intensive afternoon exploring advanced sisal weaving patterns and natural dyeing methods.',
+    location: 'Artisan Studio 1',
+    type: 'Workshop',
+    image: img2,
+  },
+  {
+    date: 'Nov 05, 2026',
+    time: '6:30 PM - 9:00 PM',
+    title: 'Exhibition Opening: "Roots & Resilience"',
+    description:
+      'The opening reception for our new temporary exhibition featuring contemporary interpretations of traditional Dawida artifacts by local youth.',
+    location: 'Main Gallery',
+    type: 'Exhibition',
+    image: img3,
+  },
+  {
+    date: 'Nov 12, 2026',
+    time: '7:00 PM - 9:00 PM',
+    title: 'Community Storytelling Circle',
+    description:
+      'An evening around the fire with community elders sharing oral histories, myths, and legends of Taita people.',
+    location: 'Outdoor Amphitheater',
+    type: 'Community',
+    image: img1,
+  },
+  {
+    date: 'Nov 19, 2026',
+    time: '10:00 AM - 4:00 PM',
+    title: 'Pottery Masterclass with Mama Koki',
+    description:
+      'Learn traditional pottery techniques including clay preparation, hand-building methods, and pit firing processes used for generations.',
+    location: 'Pottery Studio',
+    type: 'Workshop',
+    image: img2,
+  },
+  {
+    date: 'Dec 03, 2026',
+    time: '9:00 AM - 12:00 PM',
+    title: 'Traditional Craft Market Day',
+    description:
+      'Annual market showcasing authentic Dawida crafts, textiles, and artworks directly from local artisans to the community.',
+    location: 'TCCHC Marketplace',
+    type: 'Market',
+    image: img3,
+  },
+  {
+    date: 'Dec 10, 2026',
+    time: '5:30 PM - 8:30 PM',
+    title: 'Mwazindika Drumming Workshop',
+    description:
+      'Experience the spiritual and cultural significance of traditional Mwazindika drumming patterns and rhythms with master drummers.',
+    location: 'Cultural Circle',
+    type: 'Workshop',
+    image: img1,
+  },
+  {
+    date: 'Dec 18, 2026',
+    time: '11:00 AM - 3:00 PM',
+    title: 'Heritage Documentation Training',
+    description:
+      'Learn how to preserve Dawida cultural heritage through digital archiving, oral history recording, and manuscript preservation.',
+    location: 'Archive Building',
+    type: 'Training',
+    image: img2,
+  },
+  {
+    date: 'Dec 03, 2026',
+    time: '9:00 AM - 5:00 PM',
+    title: 'Holiday Craft Market',
+    description:
+      'Support local artisans by purchasing unique, handcrafted gifts for the holiday season. Featuring over 30 local makers.',
+    location: 'TCCHC Grounds',
+    type: 'Market',
+    image: img3,
+  },
+  {
+    date: 'Dec 10, 2026',
+    time: '3:00 PM - 5:00 PM',
+    title: 'Lecture: The History of Taita Beadwork',
+    description:
+      'Dr. Mwangi discusses the symbolic meanings, historical trade routes, and evolution of Dawida bead craftsmanship.',
+    location: 'Auditorium',
+    type: 'Lecture',
+    image: img1,
+  },
+  {
+    date: 'Dec 17, 2026',
+    time: '11:00 AM - 1:00 PM',
+    title: 'Youth Heritage Program Showcase',
+    description:
+      'A presentation of projects completed by our youth residency participants, blending traditional skills with modern design.',
+    location: 'Exhibition Hall B',
+    type: 'Community',
+    image: img2,
+  },
+];
 
 export function EventsPage() {
   return (

@@ -54,7 +54,7 @@ export function Navbar() {
               <img 
                 src={logo} 
                 alt="TCCHC Kenya Logo" 
-                className="h-14 w-auto"
+                className="h-20 w-auto"
               />
             </Link>
           </div>
@@ -82,7 +82,7 @@ export function Navbar() {
           <div className="hidden lg:flex items-center space-x-3">
             <a
               href="tel:+254708032388"
-              className="inline-flex items-center justify-center w-10 h-10 text-earth-brown border border-earth-brown rounded-md hover:bg-earth-brown hover:text-white transition-colors"
+              className="inline-flex items-center justify-center w-10 h-10 text-earth-brown hover:bg-earth-brown hover:text-white transition-colors"
               aria-label="Call Us">
               <i className="fas fa-phone"></i>
             </a>
@@ -90,7 +90,7 @@ export function Navbar() {
               href="https://wa.me/254708032388"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center w-10 h-10 text-white bg-green-600 rounded-md hover:bg-green-700 transition-colors"
+              className="inline-flex items-center justify-center w-10 h-10 text-white bg-green-600 hover:bg-green-700 transition-colors"
               aria-label="WhatsApp Us">
               <i className="fab fa-whatsapp"></i>
             </a>
@@ -141,7 +141,7 @@ export function Navbar() {
             <div className="mt-8 pt-8 border-t border-golden-ochre/20 space-y-3">
               <a
                 href="tel:+254708032388"
-                className="flex items-center justify-center px-6 py-3 text-base font-medium text-earth-brown border border-earth-brown rounded-md hover:bg-earth-brown hover:text-white transition-colors">
+                className="flex items-center justify-center px-6 py-3 text-base font-medium text-earth-brown hover:bg-earth-brown hover:text-white transition-colors">
                 <i className="fas fa-phone mr-3"></i>
                 <span>Call +254 708 032 388</span>
               </a>
@@ -149,7 +149,7 @@ export function Navbar() {
                 href="https://wa.me/254708032388"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-green-600 rounded-md hover:bg-green-700 transition-colors">
+                className="flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-green-600 hover:bg-green-700 transition-colors">
                 <i className="fab fa-whatsapp mr-3"></i>
                 <span>WhatsApp</span>
               </a>
