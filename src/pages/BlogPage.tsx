@@ -97,9 +97,9 @@ export function BlogPage() {
                 placeholder="Search articles..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full px-4 py-3 pr-32 text-lg border border-golden-ochre/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-forest-green focus:border-transparent"
+                className="w-full px-4 py-3 pl-12 pr-32 text-lg border border-golden-ochre/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-forest-green focus:border-transparent"
               />
-              <div className="absolute left-4 top-1/2 transform -translate-y-1/2">
+              <div className="absolute left-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
                 <SearchIcon className="h-5 w-5 text-deep-charcoal/40" />
               </div>
               
